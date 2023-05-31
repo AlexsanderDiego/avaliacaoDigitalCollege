@@ -65,11 +65,11 @@ ol, ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 80%;
 }
 .header-section-titulo {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 70px;
   color: #fff;
   font-weight: bolder;
 }
@@ -159,42 +159,42 @@ ol, ul {
 .ul2 {
   height: 350px;
 }
-.main .main__secao2 {
-  height: 500px;
+.main-secao2 {
+  height: 580px;
   margin-top: 40px;
 }
-.main .main__secao2 .main__secao2__containerPrincipal {
+.main-secao2-containerPrincipal {
   display: flex;
   justify-content: space-around;
   text-align: center;
   height: 550px;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
-.main .main__secao2 .main__secao2__containerPrincipal .main__secao2__containerPrincipal__container1 {
+.main-secao2-containerPrincipal-container1 {
   width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 12%;
 }
-.main .main__secao2 .main__secao2__containerPrincipal .main__secao2__containerPrincipal__container1 .main__secao2__containerPrincipal__container1__titulo {
+.main-secao2-containerPrincipal-container1-titulo {
   text-align: left;
   font-weight: bolder;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
   color: #2b2929;
-  width: 54%;
+  width: 60%;
   line-height: 45px;
   margin-bottom: 10px;
 }
-.main .main__secao2 .main__secao2__containerPrincipal .main__secao2__containerPrincipal__container1 .main__secao2__containerPrincipal__container1__parag {
+.main-secao2-containerPrincipal-container1-parag {
   text-align: left;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
   line-height: 25px;
   font-size: 18px;
+  width: 85%;
 }
-.main .main__secao2 .main__secao2__containerPrincipal .main__secao2__containerPrincipal__container1 .main__secao2__containerPrincipal__container1__button {
+.main-secao2-containerPrincipal-container1-button {
   width: 120px;
   border: none;
   border-radius: 20px;
@@ -205,58 +205,60 @@ ol, ul {
   font-size: 15px;
   margin-top: 10px;
 }
-.main .main__secao2 .main__secao2__containerPrincipal .main__secao2__containerPrincipal__container1 .main__secao2__containerPrincipal__container1__button:hover {
+.main-secao2-containerPrincipal-container1-button:hover {
   transition: 0.8s;
   background-color: #a21101;
   cursor: pointer;
 }
-.main .main__secao2 .main__secao2__containerPrincipal .main__secao2__containerPrincipal__container2 {
+.main-secao2-containerPrincipal-container2 {
   margin: auto 0;
 }
-.main .main__secao2 .main__secao2__containerPrincipal .main__secao2__containerPrincipal__container2 .main__secao2__containerPrincipal__container1__img {
-  width: 700px;
+.main-secao2-containerPrincipal-container1-img {
+  width: 800px;
+  padding-top: 50px;
 }
-.main .main__secao3 {
+.main-secao3 {
   background-color: #fff0ed;
-  height: 700px;
+  height: 800px;
 }
-.main .main__secao3 .main__secao3__containerPrincipal {
+.main-secao3-containerPrincipal {
   display: flex;
   justify-content: space-between;
   text-align: center;
   height: 100%;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
+  padding-top: 80px;
 }
-.main .main__secao3 .main__secao3__containerPrincipal .main__secao3__containerPrincipal__container1 {
+.main-secao3-containerPrincipal-container1 {
   width: 60%;
-  padding-top: 100px;
+  padding-top: 50px;
 }
-.main .main__secao3 .main__secao3__containerPrincipal .main__secao3__containerPrincipal__container1 .main__secao3__containerPrincipal__container1__img {
-  width: 100%;
+.main-secao3-containerPrincipal-container1-img {
+  width: 800px;
 }
-.main .main__secao3 .main__secao3__containerPrincipal .main__secao3__containerPrincipal__container2 {
+.main-secao3-containerPrincipal-container2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: left;
+  padding-left: 80px;
+  padding-bottom: 200px;
 }
-.main .main__secao3 .main__secao3__containerPrincipal .main__secao3__containerPrincipal__container2 .main__secao3__containerPrincipal__container2__titulo {
-  text-align: right;
+.main-secao3-containerPrincipal-container2-titulo {
+  text-align: left;
   font-weight: bolder;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
   color: #2b2929;
   margin-bottom: 15px;
 }
-.main .main__secao3 .main__secao3__containerPrincipal .main__secao3__containerPrincipal__container2 .main__secao3__containerPrincipal__container2__parag {
+.main-secao3-containerPrincipal-container2-parag {
   text-align: left;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
   line-height: 25px;
   font-size: 18px;
 }
-.main .main__secao3 .main__secao3__containerPrincipal .main__secao3__containerPrincipal__container2 .main__secao3__containerPrincipal__container2__button {
+.main-secao3-containerPrincipal-container2-button {
   width: 150px;
   border: none;
   border-radius: 20px;
@@ -267,7 +269,7 @@ ol, ul {
   font-size: 15px;
   margin-top: 10px;
 }
-.main .main__secao3 .main__secao3__containerPrincipal .main__secao3__containerPrincipal__container2 .main__secao3__containerPrincipal__container2__button:hover {
+.main-secao3-containerPrincipal-container2-button:hover {
   transition: 0.8s;
   background-color: #a21101;
   cursor: pointer;
@@ -358,34 +360,35 @@ ol, ul {
   margin: 0 auto;
   align-items: center;
 }
-.rodape .rodape-section3 .rodape-section3-container {
+.rodape-section3-container {
   display: flex;
   align-items: center;
 }
-.rodape .rodape-section3 .rodape-section3-container .rodape-section3-container-img {
+.rodape-section3-container-img {
   width: 35px;
   margin-right: 20px;
 }
-.rodape .rodape-section3 .rodape-section3-container .rodape-section3-container-link {
+.rodape-section3-container-link {
   text-decoration: none;
   color: #ccc;
   font-size: 13px;
   margin-right: 20px;
 }
-.rodape .rodape-section3 .rodape-section3-container .rodape-section3-container-link:hover {
+.rodape-section3-container-link:hover {
   text-decoration: underline;
   color: #fff;
 }
-.rodape .rodape-section3 .rodape-section3-container .rodape-section3-container-parag {
+.rodape-section3-container-parag {
   color: #ccc;
   font-size: 13px;
   margin-right: 20px;
+  margin-top: 15px;
 }
-.rodape .rodape-section3 .rodape-section3-container .rodape-section3-container-img2 {
+.rodape-section3-container-img2 {
   filter: opacity(0.7);
 }
-.rodape .rodape-section3 .rodape-section3-container .rodape-section3-container-img2:hover {
+.rodape-section3-container-img2:hover {
   filter: opacity(5);
 }
 
-# sourceMappingURL=styles.css.map
+
